@@ -1,0 +1,18 @@
+﻿<Window x:Class="Bot_Answer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bot_Answer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="10,357,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="645" Height="30"/>
+        <Button x:Name="Send" Content="Send" HorizontalAlignment="Left"  Margin="679,352,0,0" VerticalAlignment="Top" Width="106" Height="40" Click="Button_Click" RenderTransformOrigin="0.484,0.204"/>
+        <ListView x:Name="Chat" Margin="0,0,145,165"/>
+        <Button x:Name="Train" Content="Обучить" HorizontalAlignment="Left" Margin="679,34,0,0" VerticalAlignment="Top" Height="42" Width="106" Click="Train_Click"/>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="10,289,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="645" Height="30"/>
+
+
+    </Grid>
+</Window>
